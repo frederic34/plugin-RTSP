@@ -32,7 +32,7 @@ echo "##########################################################################
 echo 5 > /tmp/RTSP_dep
 $sudo_prefix apt-get update
 echo 25 > /tmp/RTSP_dep
-$sudo_prefix apt-get -y install libav-tools
+$sudo_prefix apt-get -y install ffmpeg
 echo 50 > /tmp/RTSP_dep
 
 echo "############################################################################"
